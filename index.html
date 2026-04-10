@@ -435,7 +435,6 @@
 .mosaic-cell img.frente { opacity: 1; }
 .mosaic-cell img.atras { opacity: 0; }
 
-/* overlay pra escurecer */
 .overlay {
   position: fixed;
   inset: 0;
@@ -456,7 +455,7 @@
   }
 
   .vs-nav {
-    display: none; /* esconde menu no mobile */
+    display: none; 
   }
 
   /* HERO */
@@ -465,7 +464,7 @@
   }
 
   .vs-hero h1 {
-    font-size: 32px; /* menor */
+    font-size: 32px; 
   }
 
   .vs-hero p {
@@ -473,13 +472,15 @@
   }
 
   .vs-hero-actions {
-    flex-direction: column; /* botões um embaixo do outro */
+    flex-direction: column; 
     gap: 10px;
   }
 
   .btn-primary,
   .btn-ghost {
-    width: 100%; /* ocupa largura toda */
+    width: auto;       
+    display: inline-flex; 
+    padding: 12px 20px;
   }
 
   /* STATS */
