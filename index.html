@@ -521,8 +521,15 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .btn-plan {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    display: block; /* Necessário para o margin: auto funcionar */
+  }
 }
-
+}
 
 </style>
 </head>
